@@ -1,0 +1,9 @@
+C:\Users\Filipe Amaral\Desktop\ShutDownTImer\ShutDownTImer\bin\Debug\ShutDownTImer.exe.config
+C:\Users\Filipe Amaral\Desktop\ShutDownTImer\ShutDownTImer\bin\Debug\ShutDownTImer.exe
+C:\Users\Filipe Amaral\Desktop\ShutDownTImer\ShutDownTImer\bin\Debug\ShutDownTImer.pdb
+C:\Users\Filipe Amaral\Desktop\ShutDownTImer\ShutDownTImer\obj\Debug\ShutDownTImer.csprojResolveAssemblyReference.cache
+C:\Users\Filipe Amaral\Desktop\ShutDownTImer\ShutDownTImer\obj\Debug\ShutDownTImer.Form1.resources
+C:\Users\Filipe Amaral\Desktop\ShutDownTImer\ShutDownTImer\obj\Debug\ShutDownTImer.Properties.Resources.resources
+C:\Users\Filipe Amaral\Desktop\ShutDownTImer\ShutDownTImer\obj\Debug\ShutDownTImer.csproj.GenerateResource.Cache
+C:\Users\Filipe Amaral\Desktop\ShutDownTImer\ShutDownTImer\obj\Debug\ShutDownTImer.exe
+C:\Users\Filipe Amaral\Desktop\ShutDownTImer\ShutDownTImer\obj\Debug\ShutDownTImer.pdb
