@@ -23,6 +23,8 @@ namespace ShutDownTImer
 
         }
 
+
+
         private void btn_start_Click(object sender, EventArgs e)
         {
 
@@ -71,6 +73,35 @@ namespace ShutDownTImer
             }
         }
 
+        private void btn_timer_Click(object sender, EventArgs e)
+        {
 
+            if (txt_timer.Text == "")
+            {
+                MessageBox.Show("Empty box", "Error!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+
+                int testTime;
+                if (!int.TryParse(txt_timer.Text, out testTime))
+                {
+                    MessageBox.Show("This is a number only field", "Error!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    int time;
+                    Int32.TryParse(txt_timer.Text, out time);
+                    MessageBox.Show(time.ToString() + "min");
+                    this.Hide();
+
+                    for (int i = time - 1; i >= 0; i--)
+                    {
+                        Thread.Sleep(60000);
+                    }
+                    Process.Start("shutdown", "/s /t 5");
+                }
+            }
+        }
     }
 }

@@ -35,6 +35,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.lbl_timer = new System.Windows.Forms.Label();
+            this.txt_timer = new System.Windows.Forms.TextBox();
+            this.btn_timer = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txt_min
@@ -80,11 +83,40 @@
             this.label2.TabIndex = 5;
             this.label2.Text = "Minute";
             // 
+            // lbl_timer
+            // 
+            this.lbl_timer.AutoSize = true;
+            this.lbl_timer.Location = new System.Drawing.Point(13, 80);
+            this.lbl_timer.Name = "lbl_timer";
+            this.lbl_timer.Size = new System.Drawing.Size(33, 13);
+            this.lbl_timer.TabIndex = 6;
+            this.lbl_timer.Text = "Timer";
+            // 
+            // txt_timer
+            // 
+            this.txt_timer.Location = new System.Drawing.Point(74, 77);
+            this.txt_timer.Name = "txt_timer";
+            this.txt_timer.Size = new System.Drawing.Size(100, 20);
+            this.txt_timer.TabIndex = 7;
+            // 
+            // btn_timer
+            // 
+            this.btn_timer.Location = new System.Drawing.Point(183, 77);
+            this.btn_timer.Name = "btn_timer";
+            this.btn_timer.Size = new System.Drawing.Size(75, 23);
+            this.btn_timer.TabIndex = 8;
+            this.btn_timer.Text = "Timer\\min";
+            this.btn_timer.UseVisualStyleBackColor = true;
+            this.btn_timer.Click += new System.EventHandler(this.btn_timer_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(270, 76);
+            this.ClientSize = new System.Drawing.Size(270, 109);
+            this.Controls.Add(this.btn_timer);
+            this.Controls.Add(this.txt_timer);
+            this.Controls.Add(this.lbl_timer);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txt_hour);
@@ -107,6 +139,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.Label lbl_timer;
+        private System.Windows.Forms.TextBox txt_timer;
+        private System.Windows.Forms.Button btn_timer;
     }
 }
 
